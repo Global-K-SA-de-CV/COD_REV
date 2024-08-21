@@ -24,7 +24,7 @@ Al finalizar la práctica, serás capaz de:
 ## Instrucciones 
 
 ### Tarea 1. 
-Paso 1. Tener configurada la informacion de usuario.
+**Paso 1.** Tener configurada la informacion de usuario.
 
         git config --global user.name "nombre"
 
@@ -40,9 +40,9 @@ Paso 1. Tener configurada la informacion de usuario.
 
 
 > [!TIP]
-> Debes tener en cuenta que el email sea el mismo en caso de manejar cuenta de GitHub.
+> Debes tener en cuenta que el email sea el mismo en caso de manejar una cuenta de GitHub.
 
-Paso 2. En una carpeta crea un archivo HTML; en este se podrá establecer únicamente una estructura HTML básica.
+Paso 2. En una carpeta crea un archivo HTML; en éste se podrá establecer únicamente una estructura HTML básica.
 
 ```html
     <!DOCTYPE html>
@@ -78,7 +78,7 @@ Paso 5. Con el siguiente comando, agrega el archivo al área de stage para hacer
 
 ![Logo](../images/cap1/9.png)
 
-Paso 6. Usando status, se podrá verificar que ya no está el archivo en el registro de cambios pendientes.
+Paso 6. Usando status, podrás verificar que ya no está el archivo en el registro de cambios pendientes.
 
         git status
 
