@@ -25,7 +25,7 @@ Al finalizar la práctica, serás capaz de:
 ## Instrucciones: 
 
 ### Tarea 1. Descripción de la tarea a realizar.
-Paso 1. Accede al repositorio para la actividad del capítulo.
+**Paso 1.** Accede al repositorio para la actividad del capítulo.
 
 ![Logo](../images/cap3/1.png)
 
@@ -33,7 +33,7 @@ Paso 1. Accede al repositorio para la actividad del capítulo.
 
 En el README podrás visualizar una lista de estándares a seguir en el código.
 
-Paso 2. Ingresa a la sección de **"Pull request"**.
+**Paso 2.** Ingresa a la sección de **"Pull request"**.
 
 ![Logo](../images/cap3/3.png)
 
@@ -41,11 +41,11 @@ Paso 2. Ingresa a la sección de **"Pull request"**.
 
 Selecciona el pull request activo.
 
-Paso 3. En la sección de **"Files changed"** revisa los archivos modificados para ver si cumplen con los estándares establecidos.
+**Paso 3.** En la sección de **"Files changed"** revisa los archivos modificados para ver si cumplen con los estándares establecidos.
 
 ![Logo](../images/cap3/4.png)
 
-Paso 4.  Identifica los errores encontrados, ya sea que no cumplan con los estándares establecidos o Programación Orientada a Objetos en general.
+**Paso 4.**  Identifica los errores encontrados, ya sea que no cumplan con los estándares establecidos o Programación Orientada a Objetos en general.
 
 ### Resultado esperado
 
