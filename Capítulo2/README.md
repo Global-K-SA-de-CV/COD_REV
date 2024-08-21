@@ -7,7 +7,6 @@ Al finalizar la práctica, serás capaz de:
 - Sincronizar cambios entre el repositorio local y el repositorio remoto después de un pull request.
 
 ## Objetivo Visual: 
-Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo se muestra en la siguiente imagen: 
 
 ![diagrama1](../images/cap2/28.png)
 
@@ -25,7 +24,7 @@ Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo se 
 ## Instrucciones: 
 
 ### Tarea 1. Descripción de la tarea a realizar.
-Paso 1. Conecta tu cuenta de GitHub con la versión de escritorio.
+**Paso 1.** Conecta tu cuenta de GitHub con la versión de escritorio.
 
 ![Logo](../images/cap2/1.png)
 
@@ -37,31 +36,31 @@ Selecciona la opción **"Sign into Github.com"**, esto abrirá el navegador.
 
 Si en este punto no has iniciado sesión, te pedirá que lo realices. Finalmente, da clic a **"Continue"**.
 
-Paso 2.  Ingresa a la opción **"Add existing repository"**.
+**Paso 2.**  Ingresa a la opción **"Add existing repository"**.
 
 ![Logo](../images/cap2/4.png)
 
-Paso 3. Busca la ubicación de la carpeta en la cual inicializaste el repositorio, posteriomente, da clic a **"Add repository"**.
+**Paso 3.** Busca la ubicación de la carpeta en la cual inicializaste el repositorio, posteriomente, da clic a **"Add repository"**.
 
 ![Logo](../images/cap2/5.png)
 
-Paso 4.  Ahora en el listado de repositorios puedes observar que tu repositorio fue agregado a la herramienta de forma correcta.
+**Paso 4.**  Ahora en el listado de repositorios puedes observar que tu repositorio fue agregado a la herramienta de forma correcta.
 
 ![Logo](../images/cap2/6.png)
 
-Paso 5. En la parte superior se encuentra la opción **"Publish repository"**, al cual debes dar clic, esto creará el repositorio en tu cuenta de GitHub.
+**Paso 5.** En la parte superior se encuentra la opción **"Publish repository"**, al cual debes dar clic, esto creará el repositorio en tu cuenta de GitHub.
 
 ![Logo](../images/cap2/7.png)
 
-Paso 6. A Continuación llena la información que se solicita: nombre, descripción y selecciona el tipo de visualización (puede ser público o privado) y da clic a **"Publish repository"**.
+**Paso 6.** A Continuación llena la información que se solicita: nombre, descripción y selecciona el tipo de visualización (puede ser público o privado) y da clic a **"Publish repository"**.
 
 ![Logo](../images/cap2/8.png)
 
-Paso 7. Verifica el listado de repositorios de tu cuenta de GitHub y podrás observar que se ha creado correctamente con el historial de cambios que ya tenías y el código.
+**Paso 7.** Verifica el listado de repositorios de tu cuenta de GitHub y podrás observar que se ha creado correctamente con el historial de cambios que ya tenías y el código.
 
 ![Logo](../images/cap2/9.png)
 
-Paso 8. Desde GitHub Desktop crea una rama donde agregarás:
+**Paso 8.** Desde GitHub Desktop crea una rama donde agregarás:
 1. Primeramente el README.md.
 2. Después en un nuevo commit el .gitignore donde crearás un .env .
 
@@ -116,13 +115,13 @@ Crea el archivo *.env* y el gitignore de donde establecemos la ruta del .env
 
 De esta forma, observa que el *.env* ya estará siendo seguido por git, por lo que se procede a hacer commit del gitignore.
 
-Paso 9. Ahora con el botón con el cual anteriormente realizaste la subida del repositorio, harás la subida de los cambios realizados.
+**Paso 9.** Ahora con el botón con el cual anteriormente realizaste la subida del repositorio, harás la subida de los cambios realizados.
 
 ![Logo](../images/cap2/14.png)
 
 De esta forma, si revisas el repositorio remoto, puedes observar que el README y gitignore fueron cargados, pero que el *.env* fue ignorado.
 
-Paso 10. Crea una nueva rama.
+**Paso 10.** Crea una nueva rama.
 
 ![Logo](../images/cap2/16.png)
 
@@ -130,7 +129,7 @@ Paso 10. Crea una nueva rama.
 
 Establece el nombre a la rama.
 
-Paso 11. Realiza nuevos cambios al archivo HTML y haz commit de éstos.
+**Paso 11.** Realiza nuevos cambios al archivo HTML y haz commit de éstos.
 
 ```html
     <!DOCTYPE html>
@@ -165,7 +164,7 @@ Paso 11. Realiza nuevos cambios al archivo HTML y haz commit de éstos.
 
 Realiza el commit de los cambios.
 
-Paso 12. Publica la rama con sus cambios.
+**Paso 12.** Publica la rama con sus cambios.
 
 ![Logo](../images/cap2/15.png)
 
@@ -173,7 +172,7 @@ Esto hará que en GitHub, en la sección de ramas, aparezca la rama en la que es
 
 ![Logo](../images/cap2/20.png)
 
-Paso 13. Procedemos a hacer un pull request desde la web de GitHub.
+**Paso 13.** Procedemos a hacer un pull request desde la web de GitHub.
 
 ![Logo](../images/cap2/20.png)
 
@@ -195,7 +194,7 @@ Desde aquí solo podrás verificar si el cambio fue aprobado, si han comentado a
 
 Una vez realizado el merge del pull request, puedes eliminar la rama, de lo contrario, seguirá trabajando con ella.
 
-Paso 14. Regresa a GitHub Desktop y baja los cambios realizados por el merge request.
+**Paso 14.** Regresa a GitHub Desktop y baja los cambios realizados por el merge request.
 
 ![Logo](../images/cap2/25.png)
 
@@ -203,7 +202,7 @@ Asegúrate de estar en la rama *main* y, desde el mismo botón donde hiciste sub
 
 ![Logo](../images/cap2/26.png)
 
-Puedes observar que dice que *hay dos cambios pendientes por bajar*. Si recuedas, hicimos un commit en la rama anterior y el otro haría referencia a la unión del código por el merge request. Debes darle clic, lo cual iniciará a bajar los cambios.
+Puedes observar que dice que: *Hay dos cambios pendientes por bajar*. Si recuedas, hicimos un commit en la rama anterior y el otro haría referencia a la unión del código por el merge request. Debes darle clic, lo cual iniciará a bajar los cambios.
 
 ### Resultado final
 Desde el editor puedes observar que todos los cambios que hiciste en la rama anterior se unificaron.
