@@ -42,7 +42,7 @@ Al finalizar la práctica, serás capaz de:
 > [!TIP]
 > Debes tener en cuenta que el email sea el mismo en caso de manejar una cuenta de GitHub.
 
-Paso 2. En una carpeta crea un archivo HTML; en éste se podrá establecer únicamente una estructura HTML básica.
+**Paso 2.** En una carpeta crea un archivo HTML; en éste se podrá establecer únicamente una estructura HTML básica.
 
 ```html
     <!DOCTYPE html>
@@ -60,44 +60,44 @@ Paso 2. En una carpeta crea un archivo HTML; en éste se podrá establecer únic
 
 ![Logo](../images/cap1/6.png)
 
-Paso 3. Por medio de la terminal, inicializa el repositorio.
+**Paso 3.** Por medio de la terminal, inicializa el repositorio.
 
         git init
 
 ![Logo](../images/cap1/7.png)
 
-Paso 4. Con el siguiente comando puedes visualizar que Git ya está haciendo seguimiento a nuestros archivos.
+**Paso 4.** Con el siguiente comando puedes visualizar que Git ya está haciendo seguimiento a nuestros archivos.
 
         git status
 
 ![Logo](../images/cap1/8.png)
 
-Paso 5. Con el siguiente comando, agrega el archivo al área de stage para hacer commit.
+**Paso 5.** Con el siguiente comando, agrega el archivo al área de stage para hacer commit.
 
         git add .
 
 ![Logo](../images/cap1/9.png)
 
-Paso 6. Usando status, podrás verificar que ya no está el archivo en el registro de cambios pendientes.
+**Paso 6.** Usando status, podrás verificar que ya no está el archivo en el registro de cambios pendientes.
 
         git status
 
 ![Logo](../images/cap1/10.png)
 
-Paso 7. Procede a realizar commit despues de agregar el archivo al stage.
+**Paso 7.** Procede a realizar commit despues de agregar el archivo al stage.
 
         git commit -m "Initial commit"
 
 ![Logo](../images/cap1/11.png)
 
-Paso 8. Después, procede a crear una rama y verifica que se haya realizado correctamente.
+**Paso 8.** Después, procede a crear una rama y verifica que se haya realizado correctamente.
 
         git branch feature/list
         git branch
 
 ![Logo](../images/cap1/13.png)
 
-Paso 9. Cambia a la rama creada y modifica el HTML con una lista u otro contenido.
+**Paso 9.** Cambia a la rama creada y modifica el HTML con una lista u otro contenido.
 
         git checkout feature/list
         git branch
@@ -130,21 +130,21 @@ Paso 9. Cambia a la rama creada y modifica el HTML con una lista u otro contenid
 ```
 ![Logo](../images/cap1/15.png)
 
-Paso 10. Agrega los cambios al área de stage y haz commit del cambio.
+**Paso 10.** Agrega los cambios al área de stage y haz commit del cambio.
 
         git add .
         git commit -m "add list"
 
 ![Logo](../images/cap1/16.png)
 
-Paso 11. Cambia a la rama master y realiza el merge con la rama creada anteriormente.
+**Paso 11.** Cambia a la rama master y realiza el merge con la rama creada anteriormente.
 
         git checkout master
         git merge feature/list
 
 ![Logo](../images/cap1/17.png)
 
-Paso 12. Después de unificados los cambios, elimina la rama anteriormente creada.
+**Paso 12.** Después de unificados los cambios, elimina la rama anteriormente creada.
 
         git branch -d feature/list
 
