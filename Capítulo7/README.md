@@ -152,7 +152,7 @@ Y notaremos tanto autor como dueño, que ya están habilitadas las opciones de m
 > [!NOTE]
 > Cabe recalcar que todo este proceso de solicitud de cambios será notificado en las cuentas de correo, las solicitudes de cambio, los comentarios y la aprobación.
 
-### Resultado final
+### Resultado final:
 
 Documento en el que se evidenciará el cómo realizó el ajuste de ramas para la seguridad del pull request y revisión de código obligatorio. Como también evidencia del proceso de revisión de código.
 ![imagen resultado](../images/cap7/17.png)
