@@ -27,20 +27,20 @@ Imagen de Codio, 25 de agosto 2021 [Codio](https://www.codio.com/blog/3-collabor
 
 ## Instrucciones: 
 
-Paso 1. Para iniciar, desde Laragon inicia los servicios de MySQL para base de datos y Apache.
+**Paso 1.** Para iniciar, desde Laragon inicia los servicios de MySQL para base de datos y Apache.
 
 ![Logo](../images/cap6/1.png)
 
 ![Logo](../images/cap6/2.png)
 
-Paso 2. Desde la terminal en la carpeta www correspondiente a Laragon, ejecuta el siguiente comando de composer: `composer create-project laravel/laravel nombre-poryecto` y espera hasta que finalice.
+**Paso 2.** Desde la terminal en la carpeta www correspondiente a Laragon, ejecuta el siguiente comando de composer: `composer create-project laravel/laravel nombre-poryecto` y espera hasta que finalice.
 
         composer create-project laravel/laravel nombre_proyecto
 
 ![Logo](../images/cap6/3.png)
 
 
-Paso 3. Ingresa al proyecto y, dentro del archivo *.env*, descomenta las líneas 23 a la 27 y en la línea 22 cambia el valor a MySQL.
+**Paso 3.** Ingresa al proyecto y, dentro del archivo *.env*, descomenta las líneas 23 a la 27 y en la línea 22 cambia el valor a MySQL.
 
 ## .env
 ```
@@ -54,7 +54,7 @@ Paso 3. Ingresa al proyecto y, dentro del archivo *.env*, descomenta las líneas
 
 ![Logo](../images/cap6/4.png)
 
-Paso 4.  En GitHub Desktop, agrega el proyecto.
+**Paso 4.**  En GitHub Desktop, agrega el proyecto.
 
 ![Logo](../images/cap6/5.png)
 
@@ -70,7 +70,7 @@ Establece la información necesaria, en este caso con el nombre es sufuciente.
 
 Una vez agregado puedes publicar el repositorio en tu cuenta.
 
-Paso 5.  En la terminal, ingresa el comando `php artisan serve`.
+**Paso 5.**  En la terminal, ingresa el comando `php artisan serve`.
 
         php artisan serve
 
@@ -78,7 +78,7 @@ Paso 5.  En la terminal, ingresa el comando `php artisan serve`.
 
 Esto hará que se inicie un servicio local donde podrás hacer uso de la URL que te genera, da `CTRL + clic`, el cual abrirá el navegador y permitirá visualizar la presentacion de Laravel.
 
-Paso 6. Dentro del proyecto busca el archivo *"UserFactory"* en la ruta **"database/factories"**.
+**Paso 6.** Dentro del proyecto busca el archivo *"UserFactory"* en la ruta **"database/factories"**.
 
 ![Logo](../images/cap6/10.png)
 
@@ -86,7 +86,7 @@ Paso 6. Dentro del proyecto busca el archivo *"UserFactory"* en la ruta **"datab
 
 Verifica que el código sea el mismo, esto con el fin de generar datos de prueba en la base de datos.
 
-Paso 7. Ahora, en la ruta **"database/seeders"**, busca el archivo *"DatabaseSeeder.php"*.
+**Paso 7.** Ahora, en la ruta **"database/seeders"**, busca el archivo *"DatabaseSeeder.php"*.
 
 ## DatabaseSeeder.php
 ```php
@@ -116,7 +116,7 @@ Paso 7. Ahora, en la ruta **"database/seeders"**, busca el archivo *"DatabaseSee
 
 Desconecta la línea `User::Factory` y elimina el resto.
 
-Paso 8. Corre las migraciones con los seeders para crear la base de datos e inserta los datos `php artisan migrate --seed`.
+**Paso 8.** Corre las migraciones con los seeders para crear la base de datos e inserta los datos `php artisan migrate --seed`.
 
         php artisan migrate --seed
 
@@ -128,25 +128,25 @@ Al ser la primera vez con este proyecto te preguntará si se debe crear una base
 
 Preguntará si quieres crear la base de datos, escribe `yes` y da **Enter**.
 
-Paso 9. Realiza commit de los cambios y push para que suban al repositorio remoto.
+**Paso 9.** Realiza commit de los cambios y push para que suban al repositorio remoto.
 
 ![Logo](../images/cap6/15.png)
 
-Paso 10. Crea una rama donde crearás un listado de los usuarios.
+**Paso 10.** Crea una rama donde crearás un listado de los usuarios.
 
 ![Logo](../images/cap6/16.png)
 
 Después de crearla, publícala.
 
 
-Paso 11. Usa el comando `php artisan make:controller UserController`, esto creará un archivo controller en la ruta **"app/Http/Controllers"**
+**Paso 11.** Usa el comando `php artisan make:controller UserController`, esto creará un archivo controller en la ruta **"app/Http/Controllers"**
 donde podrás crear los métodos correspondientes.
 
         php artisan make:controller UserController
 
 ![Logo](../images/cap6/17.png)
 
-Paso 12. En el archivo controller que creaste, escribe el método index, donde primero deberás traer todos los registros de la tabla usuario, luego retonamos la vista la cual estaria en la ruta **"views/user/"** junto con todo los registro de usuarios.
+**Paso 12.** En el archivo controller que creaste, escribe el método index, donde primero deberás traer todos los registros de la tabla usuario, luego retonamos la vista la cual estaria en la ruta **"views/user/"** junto con todo los registro de usuarios.
 
 ```php
     <?php
@@ -169,7 +169,7 @@ Paso 12. En el archivo controller que creaste, escribe el método index, donde p
 
 ![Logo](../images/cap6/18.png)
 
-Paso 13. Ingresa al archivo *"web.php"*, el cual es el archivo de rutas o urls de accesso que generaste.
+**Paso 13.** Ingresa al archivo *"web.php"*, el cual es el archivo de rutas o urls de accesso que generaste.
 
 ![Logo](../images/cap6/19.png)
 
@@ -181,13 +181,13 @@ Paso 13. Ingresa al archivo *"web.php"*, el cual es el archivo de rutas o urls d
 
 La ruta que se encuentra ahí, debes modificarla para que no reciba una función sino un array con dos items: primero el controlador de usuario y el método que llamará esa ruta, en este caso, el método index.
 
-Paso 14. Luego en la ruta de carpetas **"resource/views/"**, crea una carpeta **"user"** y, dentro de ésta, un archivo llamado **"index.blade.php"**.
+**Paso 14.** Luego en la ruta de carpetas **"resource/views/"**, crea una carpeta **"user"** y, dentro de ésta, un archivo llamado **"index.blade.php"**.
 
 ![Logo](../images/cap6/21.png)
 
 De esta foma, observa que concuerda con la ruta que se estableció en el controlador **"user.index"**.
 
-Paso 15. En el archivo index, crea la siguiente estructura HTML5 donde, por medio de un foreach, recorre la colección de registros que enviaste del controlador.
+**Paso 15.** En el archivo index, crea la siguiente estructura HTML5 donde, por medio de un foreach, recorre la colección de registros que enviaste del controlador.
 
 ## views/user/index.blade.php
 ```html
@@ -236,7 +236,7 @@ Paso 15. En el archivo index, crea la siguiente estructura HTML5 donde, por medi
 
 ![Logo](../images/cap6/22.png)
 
-Paso 16. Finalmente, desde el navegador recarga la página y observa que carga el listado de usuarios registrados.
+**Paso 16.** Finalmente, desde el navegador recarga la página y observa que carga el listado de usuarios registrados.
 
 
 ### Resultado final:
