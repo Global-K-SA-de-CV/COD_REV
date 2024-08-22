@@ -33,7 +33,7 @@ Al finalizar la práctica, serás capaz de:
 > [!IMPORTANT]
 > En esta actividad, el compañero invitado al repositorio será el autor del código y, quien invitó, será quien realizará la revisión o el revisor.
 
-paso 1. Invita como colaborador a uno de nuestros compañeros al repositorio que creaste en la actividad del anterior capítulo.
+**Paso 1.** Invita como colaborador a uno de nuestros compañeros al repositorio que creaste en la actividad del anterior capítulo.
 
 ![Logo](../images/cap7/1.png)
 
@@ -49,7 +49,7 @@ Busca el nombre de usuario GitHub de tu compañero, selecciónalo y agrégalo da
 
 Tu compañero recibirá un email al correo de su cuenta de GitHub, el cual deberá aceptar para poder ingresar al repositorio.
 
-Paso 2. Tu compañero deberá clonar el repositorio en su máquina y lo agregará en GitHub Desktop.
+**Paso 2.** Tu compañero deberá clonar el repositorio en su máquina y lo agregará en GitHub Desktop.
 
         git clone <url repositorio>
 
@@ -59,7 +59,7 @@ Paso 2. Tu compañero deberá clonar el repositorio en su máquina y lo agregar�
 
 ![Logo](../images/cap5/3.png)
 
-Paso 3. Una vez que tu compañero tenga acceso como **Colaborador**, podrá hacer cambios. Primero, crear una rama y publicarla.
+**Paso 3.** Una vez que tu compañero tenga acceso como **Colaborador**, podrá hacer cambios. Primero, crear una rama y publicarla.
 
 ![Logo](../images/cap2/16.png)
 
@@ -71,13 +71,13 @@ Proporciónale un nombre a la rama.
 
 Después, publica la rama.
 
-Paso 4.  Una vez creada la rama en el editor de código, busca el archivo **"resource/views/user/index.blade.php"** para realizar una pequeña modificación, y haz commit y push para que esté en el remoto.
+**Paso 4.**  Una vez creada la rama en el editor de código, busca el archivo **"resource/views/user/index.blade.php"** para realizar una pequeña modificación, y haz commit y push para que esté en el remoto.
 
-Paso 5.  Después, realiza el pull request a la rama principal del repositorio al que te dieron acceso.
+**Paso 5.**  Después, realiza el pull request a la rama principal del repositorio al que te dieron acceso.
 
-Paso 6. El dueño del repositorio podrá visualizar el pull request y aprobarlo, dando por finalizada esta primera parte.
+**Paso 6.** El dueño del repositorio podrá visualizar el pull request y aprobarlo, dando por finalizada esta primera parte.
 
-Paso 7. Como segunda parte, el dueño de cada repositorio debe crear una regla para la rama principal, esto con el fin de limitar las pull requests a la rama principal.
+**Paso 7.** Como segunda parte, el dueño de cada repositorio debe crear una regla para la rama principal, esto con el fin de limitar las pull requests a la rama principal.
 
 ![Logo](../images/cap7/4.png)
 
@@ -103,7 +103,7 @@ Finalmente, da clic a **"Create"**.
 
 Esto te llevará nuevamente a la configuración de las ramas, donde puedes observar que se ha aplicado una regla.
 
-Paso 8. Ahora que aplicaste la regla para tu rama, tu compañero que tiene acceso al repositorio, debe crear una rama en la que hará cambios simulando un error y hará pull request de este cambio.
+**Paso 8.** Ahora que aplicaste la regla para tu rama, tu compañero que tiene acceso al repositorio, debe crear una rama en la que hará cambios simulando un error y hará pull request de este cambio.
 
 ![Logo](../images/cap7/9.png)
 
@@ -115,7 +115,7 @@ En caso de haber mas miembros de equipo podríamos cambiar el reviewer o agregar
 
 Por lo que en este momento debemos esperar a que nuestro compañero dueño del repositorio haga su revisión.
 
-Paso 9. El dueño del repositorio hará la revisión desde "file changed", en este caso como se busca simular un error, se deberá comentar el fragmento de código y enviar la revisión.
+**Paso 9.** El dueño del repositorio hará la revisión desde "file changed", en este caso como se busca simular un error, se deberá comentar el fragmento de código y enviar la revisión.
 
 ![Logo](../images/cap7/11.png)
 
@@ -131,14 +131,15 @@ Ahora veremos en la sección "comments" que la sección de "No unresolved conver
 
 Por lo que se tendrán que resolver dichos cambios, para poder marcar la revisión como aprobada y así hacer el merge.
 
-Paso 10. El autor del cambio, ahora desde local tendrá que cambiar la línea solicitada y hacer push de ese cambio.
+**Paso 10.** El autor del cambio, ahora desde local tendrá que cambiar la línea solicitada y hacer push de ese cambio.
 
-Paso 11. El autor del cambio, en la sección de comentarios comentará que está listo y lo marcará como resuelto desde "Resolve conversation".
+**Paso 11.** El autor del cambio, en la sección de comentarios comentará que está listo y lo marcará como resuelto desde "Resolve conversation".
 
 ![Logo](../images/cap7/14.png)
 
 De esta forma cerraremos la solicitud de cambios.
-Paso 12. Una vez que esté el cambio solicitado, el dueño del repo podrá verificar desde "files changed" nuevamente, y en este caso aprobar el pull request.
+
+**Paso 12.** Una vez que esté el cambio solicitado, el dueño del repo podrá verificar desde "files changed" nuevamente, y en este caso aprobar el pull request.
 
 ![Logo](../images/cap7/15.png)
 
@@ -146,11 +147,12 @@ Paso 12. Una vez que esté el cambio solicitado, el dueño del repo podrá verif
 
 Y notaremos tanto autor como dueño, que ya están habilitadas las opciones de merge, por que se resolvió la solicitud de cambios, y se aprobó el pull request desde la revisión.
 
-Paso 13. Ya que se aprobó ya sea el dueño o el autor de los cambios podrá hacer el merge para unificar los cambios con la rama principal.
+**Paso 13.** Ya que se aprobó ya sea el dueño o el autor de los cambios podrá hacer el merge para unificar los cambios con la rama principal.
 
 > [!NOTE]
 > Cabe recalcar que todo este proceso de solicitud de cambios será notificado en las cuentas de correo, las solicitudes de cambio, los comentarios y la aprobación.
 
-### Resultado esperado
+### Resultado final
+
 Documento en el que se evidenciará el cómo realizó el ajuste de ramas para la seguridad del pull request y revisión de código obligatorio. Como también evidencia del proceso de revisión de código.
 ![imagen resultado](../images/cap7/17.png)
