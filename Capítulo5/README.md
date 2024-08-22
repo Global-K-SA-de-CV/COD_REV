@@ -1,4 +1,4 @@
-.# Práctica 5. Cómo se realiza una revisión del código.
+# Práctica 5. Cómo se realiza una revisión del código.
 
 ## Objetivos:
 Al finalizar la práctica, serás capaz de:
@@ -26,7 +26,7 @@ Al finalizar la práctica, serás capaz de:
 
 ## Instrucciones: 
 
-Paso 1. Clona el repositorio en tu equipo en local.
+**Paso 1.** Clona el repositorio en tu equipo en local.
 
 ![Logo](../images/cap5/21.png)
 
@@ -38,7 +38,7 @@ Copia la URL del repositorio.
 
 En la terminal, escribe `git clone url_repositorio`, lo cual clonará todo el proyecto.
 
-Paso 2. Agrega el repositorio clonado a la herramienta de GitHub Desktop.
+**Paso 2.** Agrega el repositorio clonado a la herramienta de GitHub Desktop.
 
 ![Logo](../images/cap5/2.png)
 
@@ -52,7 +52,7 @@ Busca la ruta donde clonaste el repositorio.
 
 Cambia entre ramas para que se guarden en el local.
 
-Paso 3. Posteriormente, remueve el enlace remoto de este repositorio de la cuenta que se bajó, esto con el fin de que lo podamos subir a nuestra cuenta.
+**Paso 3.** Posteriormente, remueve el enlace remoto de este repositorio de la cuenta que se bajó, esto con el fin de que lo podamos subir a nuestra cuenta.
 
         git branch
 
@@ -81,13 +81,13 @@ Regresa a GitHub Desktop y observa que se ha habilitado la opción de **"Publica
 
 Cambia el nombre, agrega una descripción si lo deseas y da clic en **"Publish repository"**.
 
-Paso 4.  Ahora desde nuestra cuenta de GitHub, ingresa al repositorio.
+**Paso 4.**  Ahora desde nuestra cuenta de GitHub, ingresa al repositorio.
 
 ![Logo](../images/cap5/10.png)
 
 Observa que se subieron las ramas y están listas para hacer pull request.
 
-Paso 5.  Crea el pull request para cada una de las ramas.
+**Paso 5.**  Crea el pull request para cada una de las ramas.
 
 ![Logo](../images/cap5/11.png)
 
@@ -106,7 +106,7 @@ Da clic a **"Create pull request"** y después selecciona la rama.
 Da clic a **"Create pull request"**.
 
 
-Paso 6. Realiza la revisión del código según los estándares definidos en el README.
+**Paso 6.** Realiza la revisión del código según los estándares definidos en el README.
 
 ![Logo](../images/cap5/15.png)
 
@@ -129,6 +129,6 @@ En caso de que el pull request sí cumpla, en la sección de **"Comments"** dir�
 Da clic en **"Confirm merge"**, con esto finaliza el proceso de revisión.
 
 ### Resultado esperado:
-En un documento, redacta cómo realizaste la revision, aprobación y merge del pr, en caso de aplicar.
+En un documento, redacta cómo realizaste la revision, aprobación y merge del PR, en caso de aplicar.
 
 ![imagen resultado](../images/cap5/22.png)
