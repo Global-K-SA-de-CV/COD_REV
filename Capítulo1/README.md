@@ -151,7 +151,7 @@ Al finalizar la práctica, serás capaz de:
 ![Logo](../images/cap1/19.png)
 
 ### Resultado esperado
-Una vez eliminada, puedes verificar que los cambios aún persisten, lo que significa que todo el proceso fue realizado de forma corracta.
+Una vez eliminada, puedes verificar que los cambios aún persisten, lo que significa que todo el proceso fue realizado de forma correcta.
 
         git log
 
