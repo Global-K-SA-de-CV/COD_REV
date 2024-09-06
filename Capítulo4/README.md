@@ -51,3 +51,6 @@ Selecciona el pull request activo.
 En un documento establece si aprobarías el pull request, de no ser así, comentar los motivos, señalando en dónde no se cumplieron los estándares y cómo esto podría afectar la seguridad de la información y la calidad del código.
 
 ![imagen resultado](../images/cap4/6.png)
+[Inicio](../README.md)<br>
+[Práctica 3. Revision básica de código](../Capítulo3/README.md)<br>
+[Práctica 5. Cómo se realiza una revisión del código.](../Capítulo5/README.md)<br>
