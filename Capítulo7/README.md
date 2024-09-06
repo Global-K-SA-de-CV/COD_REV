@@ -155,7 +155,7 @@ Y notaremos tanto autor como dueño, que ya están habilitadas las opciones de m
 ### Resultado final:
 
 Documento en el que se evidenciará el cómo realizó el ajuste de ramas para la seguridad del pull request y revisión de código obligatorio. Como también evidencia del proceso de revisión de código.
-![imagen resultado](../images/cap7/17.png)
+![imagen resultado](../images/cap7/17.png)<br>
 [Inicio](../README.md)<br>
 [Práctica 6. Programación en pares](../Capítulo6/README.md)<br>
 [Práctica 8. Simulación completa de revisión de código](../Capítulo8/README.md)
