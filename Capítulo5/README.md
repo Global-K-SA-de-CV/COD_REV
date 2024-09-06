@@ -132,3 +132,6 @@ Da clic en **"Confirm merge"**, con esto finaliza el proceso de revisión.
 En un documento, redacta cómo realizaste la revision, aprobación y merge del PR, en caso de aplicar.
 
 ![imagen resultado](../images/cap5/22.png)
+[Inicio](../README.md)<br>
+[Práctica 4. Seguridad del código](../Capítulo4/README.md)<br>
+[Práctica 6. Programación en pares](../Capítulo6/README.md)<br>
