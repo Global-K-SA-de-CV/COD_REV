@@ -51,6 +51,6 @@ Agregar una tabla con la información que pueda requerir el participante durante
 ### Resultado final:
 Documento en el que se evidenciará el cómo realizó el ajuste de ramas para la seguridad del pull request y revisión de código obligatorio. Como también evidencia del proceso de revisión de código.
 
-![imagen resultado](../images/cap8/1.png)
+![imagen resultado](../images/cap8/1.png)<br>
 [Inicio](../README.md)<br>
 [Práctica 7. Configuración de la herramienta revisión de código](../Capítulo7/README.md)<br>
