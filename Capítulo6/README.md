@@ -242,5 +242,7 @@ De esta foma, observa que concuerda con la ruta que se estableció en el control
 ### Resultado final:
 
 ![Logo](../images/cap6/23.png)
-
+[Inicio](../README.md)<br>
+[Práctica 5. Cómo se realiza una revisión del código.](../Capítulo5/README.md)<br>
+[Práctica 7. Configuración de la herramienta revisión de código](../Capítulo7/README.md)<br>
 
