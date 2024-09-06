@@ -208,3 +208,6 @@ Puedes observar que dice que: *Hay dos cambios pendientes por bajar*. Si recueda
 Desde el editor puedes observar que todos los cambios que hiciste en la rama anterior se unificaron.
 
 ![Logo](../images/cap2/27.png)
+[Inicio](../README.md)<br>
+[Práctica 1. Gestión repositorio](../Capítulo1/README.md)<br>
+[Práctica 3. Revision básica de código](../Capítulo3/README.md)<br>
