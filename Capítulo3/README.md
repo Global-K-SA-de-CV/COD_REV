@@ -52,3 +52,6 @@ Selecciona el pull request activo.
 En un documento establece si aprobarías el pull request, de no ser así, comenta los motivos y señala en dónde no se cumplieron los estándares.
 
 ![imagen resultado](../images/cap3/6.png)
+[Inicio](../README.md)<br>
+[Práctica 2. Repositorio remoto con Github Desktop](../Capítulo2/README.md)<br>
+[Práctica 4. Seguridad del código](../Capítulo4/README.md)<br>
