@@ -156,3 +156,6 @@ Una vez eliminada, puedes verificar que los cambios aún persisten, lo que signi
         git log
 
 ![Logo](../images/cap1/20.png)
+![Logo](../images/cap1/20.png)<br>
+[Inicio](../README.md)<br>
+[Práctica 2. Repositorio remoto con Github Desktop](/Capítulo2/README.md)<br>
